@@ -1,0 +1,10 @@
+{
+  "name":"SYSTEM: AWAKENED",
+  "short_name":"AWAKENED",
+  "start_url":"./",
+  "display":"standalone",
+  "background_color":"#05070d",
+  "theme_color":"#05070d",
+  "description":"A premium personal operating system.",
+  "icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#05070d">
+<meta name="description" content="SYSTEM: AWAKENED — your real life is the game.">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.svg">
+<link rel="stylesheet" href="styles.css">
+<title>SYSTEM: AWAKENED</title>
+</head>
+<body>
+<div id="boot" class="boot"><div class="scan"></div><div class="boot-card"><div class="brand-mark">◈</div><div id="bootlog"></div><button id="skipBoot">SKIP INTRO</button></div></div>
+<div id="onboarding" class="overlay hidden"></div>
+<div id="app" class="app hidden">
+<aside class="sidebar">
+  <div class="brand"><b>◈ SYSTEM</b><small>AWAKENED</small></div>
+  <nav id="nav">
+    <button data-page="home" class="active">⌂ HOME</button>
+    <button data-page="quests">◈ QUESTS</button>
+    <button data-page="schedule">◫ SCHEDULE</button>
+    <button data-page="focus">◉ FOCUS</button>
+    <button data-page="habits">◇ HABITS</button>
+    <button data-page="bosses">⚔ BOSSES</button>
+    <button data-page="skills">✦ SKILLS</button>
+    <button data-page="analytics">▥ ANALYTICS</button>
+    <button data-page="journal">▤ JOURNAL</button>
+    <button data-page="profile">◉ PROFILE</button>
+  </nav>
+  <button id="installBtn" class="install hidden">INSTALL SYSTEM</button>
+</aside>
+<main>
+<header><div><span class="eyebrow">SYSTEM ONLINE</span><h1 id="pageTitle">COMMAND CENTER</h1></div><button id="coreBtn" class="core">SYSTEM CORE</button></header>
+<section id="content"></section>
+</main>
+<div class="bottom" id="bottomNav">
+<button data-page="home">⌂<small>HOME</small></button><button data-page="quests">◈<small>QUESTS</small></button><button data-page="schedule">◫<small>PLAN</small></button><button data-page="stats">▥<small>STATS</small></button><button data-page="profile">◉<small>PROFILE</small></button>
+</div>
+</div>
+<div id="modal" class="modal hidden"></div>
+<div id="toastHost"></div>
+<script src="app.js"></script>
+</body></html>
