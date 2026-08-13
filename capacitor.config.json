@@ -1,0 +1,6 @@
+{
+  "appId": "com.systemawakened.app",
+  "appName": "SYSTEM: AWAKENED",
+  "webDir": "www",
+  "bundledWebRuntime": false
+}
