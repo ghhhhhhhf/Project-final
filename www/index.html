@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+  >
+
+  <meta name="theme-color" content="#050505">
+
+  <meta
+    name="description"
+    content="SYSTEM: AWAKENED — Discipline and Progress System"
+  >
+
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icon.svg">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>SYSTEM: AWAKENED</title>
+</head>
+
+<body>
+
+  <div id="particles"></div>
+
+  <main class="app">
+
+    <section class="hero">
+      <div class="system-label">SYSTEM ONLINE</div>
+
+      <h1>SYSTEM:<br><span>AWAKENED</span></h1>
+
+      <p class="subtitle">
+        Your journey begins now.
+      </p>
+
+      <button id="startBtn">
+        AWAKEN SYSTEM
+      </button>
+    </section>
+
+    <section id="dashboard" class="dashboard hidden">
+
+      <div class="status-card">
+        <div>
+          <small>STATUS</small>
+          <h2 id="status">AWAKENED</h2>
+        </div>
+
+        <div class="level">
+          <small>LEVEL</small>
+          <strong id="level">1</strong>
+        </div>
+      </div>
+
+      <div class="quest-card">
+        <small>DAILY QUEST</small>
+
+        <h2>Complete Your Mission</h2>
+
+        <p>
+          Study • Train • Improve • Repeat
+        </p>
+
+        <button id="completeBtn">
+          COMPLETE QUEST
+        </button>
+
+        <div class="progress">
+          <div id="progressBar"></div>
+        </div>
+
+        <p id="progressText">0% Complete</p>
+      </div>
+
+      <div class="stats">
+
+        <div class="stat">
+          <small>XP</small>
+          <strong id="xp">0</strong>
+        </div>
+
+        <div class="stat">
+          <small>QUESTS</small>
+          <strong id="quests">0</strong>
+        </div>
+
+        <div class="stat">
+          <small>STREAK</small>
+          <strong id="streak">0</strong>
+        </div>
+
+      </div>
+
+      <button id="resetBtn" class="reset">
+        RESET SYSTEM
+      </button>
+
+    </section>
+
+  </main>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
